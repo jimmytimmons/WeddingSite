@@ -33,10 +33,20 @@ class Venue extends Component {
                         <p>{`30 NJ-156, Hamilton Township, NJ 08620`}</p>
                         <p>{`(609) 581-6782 | `}{link}</p>
                     </TextPanel>
+                    <TextPanel
+                        className={className}
+                    >
+                        <div>
+                            <h4>{`Schedule`}</h4>
+                            <p>{`Ceremony : 3:30pm`}</p>
+                            <p>{`Cocktail : 4 - 5pm`}</p>
+                            <p>{`Reception : 5 - 9pm`}</p>
+                        </div>
+                    </TextPanel>
                 </ContentWrapper>
                 <MapWrapper 
                     marker={marker}
-                    googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtW91lsq39NAQvLfi9rUCux8O4Rb6YYXM&v=3.exp&libraries=geometry,drawing,places"
                     loadingElement={<div style={{ height: `100%` }} />}
                     containerElement={<div style={{ height: `400px` }} />}
                     mapElement={<div style={{ height: `100%` }} />}

@@ -17,13 +17,25 @@ class Navigation extends Component {
                     className={`${className}__link`} 
                     onClick={ () => navigateTo('/proposal')}
                 >
-                    The Proposal
+                    {`The Proposal`}
                 </div>
                 <div
                     className={`${className}__link`}
                     onClick={ () => navigateTo('/venue')}
                 >
-                    Venue Information
+                    {`Venue Information`}
+                </div>
+                <div
+                    className={`${className}__link`}
+                    onClick={ () => navigateTo('/hotel')}
+                >
+                    {`Hotel Information`}
+                </div>
+                <div
+                    className={`${className}__link`}
+                    onClick={ () => navigateTo('/registry')}
+                >
+                    {`Gift Registry`}
                 </div>
             </div>
         );

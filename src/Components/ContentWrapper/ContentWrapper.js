@@ -9,12 +9,16 @@ class ContentWrapper extends Component {
     render()  {
         return ( 
             <div
-                className={`${className}`}
+                className={`${className} ${this.props.className}`}
             >   
                 {this.props.children}
             </div>
         );
     }
 }
+
+ContentWrapper.propTypes = {
+    className: PropTypes.string
+};
 
 export default ContentWrapper;
