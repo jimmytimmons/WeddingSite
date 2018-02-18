@@ -1,13 +1,16 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
-)
+import Hero from '../Components/Hero/Hero.js';
 
-export default IndexPage
+class Index extends Component {
+  render() {
+    return(
+      <div>
+        <Hero /> 
+      </div>
+    );
+  }
+}
+
+export default Index;

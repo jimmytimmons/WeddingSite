@@ -1,0 +1,13 @@
+@import '../../_main'; 
+
+.Venue {
+    text-align: center;
+
+    &__title {
+        margin-left: 20px;
+    }
+
+    &__wrapper {
+        background-color: $white;
+    }
+}

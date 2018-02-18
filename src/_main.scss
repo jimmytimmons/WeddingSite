@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Old+Standard+TT');
+
+$blue : #0c2248;
+$white: #fbfaeb;
+$gray-blue: #3B547F;
+
+
+@mixin mobile {
+	@media (max-width: 767px) {
+		@content;
+	}
+}
+
+html, body, #___gatsby {
+    height: 100%;
+	width: 100%;
+}

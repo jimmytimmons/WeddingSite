@@ -1,0 +1,47 @@
+@import '../../_main'; 
+
+.Header {
+
+    &__box {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        border-radius: 3px;
+        background-color: $gray-blue;
+    }
+
+    &__wrapper {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue;
+
+        @include mobile {
+            width: 700px;
+        }
+    }
+
+    &__title  {
+        color: $white;
+        font-size: 48px;
+        font-weight: bold;
+        font-family: 'Great Vibes', cursive;
+        text-decoration: underline;
+        padding-bottom: 20px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__date {
+        color: $white;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'Old Standard TT', serif;
+    }
+}

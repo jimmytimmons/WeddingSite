@@ -2,11 +2,14 @@
   "name": "gatsby-starter-default",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jimmy Timmons",
   "dependencies": {
     "gatsby": "^1.9.140",
     "gatsby-link": "^1.6.32",
-    "gatsby-plugin-react-helmet": "^1.0.8"
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.17",
+    "react-google-maps": "^9.4.5",
+    "react-youtube": "^7.5.0"
   },
   "keywords": [
     "gatsby"
