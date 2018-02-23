@@ -21,7 +21,7 @@
         background-color: $blue;
 
         @include mobile {
-            width: 700px;
+            width: 100%
         }
     }
 

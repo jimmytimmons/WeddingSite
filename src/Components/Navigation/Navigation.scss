@@ -8,6 +8,10 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+
+        @include mobile {
+            display: inherit;
+        }
     }
 
     &__link {
