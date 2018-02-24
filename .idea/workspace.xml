@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f98cd1-f762-42fb-bc98-7ec070efcb6e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" afterPath="$PROJECT_DIR$/gatsby-config.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.scss" afterPath="$PROJECT_DIR$/src/Components/Header/Header.scss" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navigation/Navigation.js" afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navigation/Navigation.scss" afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.scss" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" afterPath="$PROJECT_DIR$/src/pages/404.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/hotel.js" afterPath="$PROJECT_DIR$/src/pages/hotel.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/proposal.js" afterPath="$PROJECT_DIR$/src/pages/proposal.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/registry.js" afterPath="$PROJECT_DIR$/src/pages/registry.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/venue.js" afterPath="$PROJECT_DIR$/src/pages/venue.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -327,12 +316,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519428077443</updated>
-      <workItem from="1519428078790" duration="5625000" />
+      <workItem from="1519428078790" duration="5886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5625000" />
+    <option name="totallyTimeSpent" value="5886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="699" extended-state="6" />
@@ -345,7 +334,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.9443535" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
