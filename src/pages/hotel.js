@@ -1,4 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-91648771-3');
+ReactGA.pageview('/');
 
 const className = `Hotel`;
 

@@ -10,7 +10,9 @@
         justify-content: center;
 
         @include mobile {
-            display: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
 
@@ -21,6 +23,13 @@
         border-radius: 3px;
         border: 1px solid $blue;
         margin: 0 6px;
+
+        @include mobile {
+            width: 80%;
+            margin: 6px 6px;
+            text-align: center;
+
+        }
 
         &:hover {
             cursor: pointer;

@@ -1,20 +1,22 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-91648771-3');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-const className = `Registry`;
+const className = `Contact`;
 
-class Registry extends Component {
+import './styles/_contact.scss'
+
+class Contact extends Component {
     render() {
         return (
             <div
                 className={`${className}__wrapper`}
             >
-                {`Information Coming Soon`}
+                {`Contact Coming Soon`}
             </div>
         );
     }
 }
-export default Registry;
+export default Contact;

@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import { navigateTo } from 'gatsby-link'
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-91648771-3');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 import './Navigation.scss'
 
@@ -37,6 +41,12 @@ class Navigation extends Component {
                 >
                     {`Gift Registry`}
                 </div>
+				<div
+					className={`${className}__link`}
+					onClick={ () => navigateTo('/contact')}
+				>
+					{`Contact Us`}
+				</div>
             </div>
         );
     }

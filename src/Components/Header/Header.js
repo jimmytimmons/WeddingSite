@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import { navigateTo } from 'gatsby-link'
 
+import Countdown from '../Countdown/Countdown';
+
 import './Header.scss'
 
 const className = `Header`;
@@ -26,6 +28,7 @@ class Header extends Component {
                     >
                         {"12/09/2018"}
                     </div>
+                    <Countdown/>
                 </div>
             </div>
         );

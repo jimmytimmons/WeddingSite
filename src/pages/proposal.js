@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import YouTube from 'react-youtube';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-91648771-3');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 import VideoWrapper from '../Components/VideoWrapper/VideoWrapper.js';
 
 import './styles/_proposal.scss'

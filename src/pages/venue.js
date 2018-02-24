@@ -4,6 +4,10 @@ import ContentWrapper from '../Components/ContentWrapper/ContentWrapper.js';
 import MapWrapper from '../Components/MapWrapper/MapWrapper.js';
 import TextPanel from '../Components/TextPanel/TextPanel.js';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-91648771-3');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 const marker = {
     lat: 40.175072, 
     lng: -74.6802233
