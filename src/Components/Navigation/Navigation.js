@@ -2,11 +2,6 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import { navigateTo } from 'gatsby-link'
 
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-91648771-3');
-ReactGA.pageview(window.location.pathname + window.location.search);
-
-
 import './Navigation.scss'
 
 const className = `Navigation`;
@@ -21,7 +16,7 @@ const links = [
 
 class Navigation extends Component {
     render()  {
-    	const pathName = window.location.pathname;
+    	const pathName = typeof(window) !== 'undefined' ? window.location.pathname : null;
 
         return ( 
             <div
