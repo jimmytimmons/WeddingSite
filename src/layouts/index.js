@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../Components/Header/Header.js';
-import Hero from '../Components/Hero/Hero.js';
 import Navigation from '../Components/Navigation/Navigation.js';
 
 import './index.css'

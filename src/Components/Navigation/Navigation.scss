@@ -18,7 +18,7 @@
 
     &__link {
         padding: 12px;
-        background-color: $gray-blue;
+        background-color: $blue;
         color: $white;
         border-radius: 3px;
         border: 1px solid $blue;
@@ -31,10 +31,10 @@
 
         }
 
-        &:hover {
+        &:hover, &__active {
             cursor: pointer;
-            background-color: $white;
-            color: $blue;
+            background-color: $gray-blue;
+            color: $white;
             
         }
     }

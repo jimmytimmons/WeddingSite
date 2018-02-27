@@ -8,9 +8,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30px;
+        padding: 25px;
         border-radius: 3px;
         background-color: $gray-blue;
+        box-shadow: 0px 0px 5px #fff;
     }
 
     &__wrapper {

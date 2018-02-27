@@ -11,44 +11,39 @@ import './Navigation.scss'
 
 const className = `Navigation`;
 
+const links = [
+	{ label: 'The Proposal', link: '/proposal' },
+	{ label: 'Venue Information', link: '/venue' },
+	{ label: 'Hotel Information', link: '/hotel' },
+	{ label: 'Gift Registry', link: '/registry' },
+	{ label: 'Contact Us', link: '/contact'}
+];
+
 class Navigation extends Component {
     render()  {
+    	const pathName = window.location.pathname;
+
         return ( 
             <div
                 className={`${className}__wrapper`}
             >   
-                <div
-                    className={`${className}__link`} 
-                    onClick={ () => navigateTo('/proposal')}
-                >
-                    {`The Proposal`}
-                </div>
-                <div
-                    className={`${className}__link`}
-                    onClick={ () => navigateTo('/venue')}
-                >
-                    {`Venue Information`}
-                </div>
-                <div
-                    className={`${className}__link`}
-                    onClick={ () => navigateTo('/hotel')}
-                >
-                    {`Hotel Information`}
-                </div>
-                <div
-                    className={`${className}__link`}
-                    onClick={ () => navigateTo('/registry')}
-                >
-                    {`Gift Registry`}
-                </div>
-				<div
-					className={`${className}__link`}
-					onClick={ () => navigateTo('/contact')}
-				>
-					{`Contact Us`}
-				</div>
+				{links.map(link => Navigation.renderLink(pathName, link))}
             </div>
         );
     }
+
+    static renderLink(pathName, link) {
+    	const active = pathName === link.link ? `${className}__link__active` : null;
+    	return (
+			<div
+				key={link.label}
+				className={`${className}__link ${active}`}
+				onClick={ () => navigateTo(link.link)}
+			>
+				{link.label}
+			</div>
+		);
+	}
 }
+
 export default Navigation;
