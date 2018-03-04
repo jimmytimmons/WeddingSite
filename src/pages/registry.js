@@ -2,14 +2,16 @@ import React, { Component } from 'react'
 
 const className = `Registry`;
 
+import './styles/_registry.scss'
+
 class Registry extends Component {
     render() {
         return (
-            <div
-                className={`${className}__wrapper`}
+            <h1
+                className={`${className}__title`}
             >
-                {`Information Coming Soon`}
-            </div>
+                {`Coming Soon`}
+            </h1>
         );
     }
 }
