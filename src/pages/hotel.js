@@ -6,7 +6,7 @@ import TextPanel from '../Components/TextPanel/TextPanel.js';
 
 const markers = [
     {
-        label: 'The Hamilton Inn',
+        label: 'The Hamilton Manor',
         lat: 40.1878585,
         lng: -74.6556856
     },
@@ -45,7 +45,7 @@ class Hotel extends Component {
                             <p>
                                 {`Only ~3 minutes from the venue.`}<br/> 
                                 {`A shuttle will operate from the hotel to the venue around 3pm`}<br/>
-                                {`and another shuttle will operate from the venue to the hotel following the reception.`}
+                                {`and again from the venue to the hotel following the reception.`}
                             </p>
                             <h4><b>{`We have a block of rooms available, join us at the complimentary breakfast Monday morning!`}</b></h4>
                             <div

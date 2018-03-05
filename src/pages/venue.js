@@ -5,7 +5,7 @@ import MapWrapper from '../Components/MapWrapper/MapWrapper.js';
 import TextPanel from '../Components/TextPanel/TextPanel.js';
 
 const markers = [{
-    label: 'The Hamilton Inn',
+    label: 'The Hamilton Manor',
     lat: 40.175072, 
     lng: -74.6802233
 }];
