@@ -3,6 +3,28 @@
 .Registry {
     text-align: center;
 
+    &__container {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__link {
+        margin: 0 40px;
+        font-size: 32px;
+        background: white;
+        border: 2px solid $gray-blue;
+        border-radius: 4px;
+        padding: 15px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.10);
+    }
+
     &__title {
         text-align: center;
     }
