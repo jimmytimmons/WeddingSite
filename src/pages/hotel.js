@@ -46,7 +46,7 @@ class Hotel extends Component {
                                 {`Only ~3 minutes from the venue.`}<br/> 
                                 {`A shuttle will operate from the hotel to the venue around 3pm`}<br/>
                                 {`and again from the venue to the hotel following the reception.`}<br/>
-                                {"Reservations must be received by November 8th, you can cancel up to two days prior."}
+                                {"Reservations must be received by November 8th, and can be cancelled up to two days prior."}
                             </p>
                             <h4><b>{`We have a block of rooms available, join us at the complimentary breakfast Monday morning!`}</b></h4>
                             <div
